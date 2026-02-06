@@ -140,3 +140,23 @@ footer {
         font-size: 26px;
     }
 }
+#about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#about{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#about h2,
+#about p,
+#about a{
+  display: block;
+}
+
+#about img.about_me_img{
+  width: 130px;
+}
