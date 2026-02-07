@@ -160,3 +160,35 @@ footer {
 #about img.about_me_img{
   width: 130px;
 }
+/* ===== ABOUT SECTION RESPONSIVE FIX ===== */
+
+#about {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Sawirka */
+.about-me-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-me-img {
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+#about img {
+  width: 90%;
+  max-width: 100px;
+  height: auto;
+}
